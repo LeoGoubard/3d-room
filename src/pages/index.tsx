@@ -16,13 +16,11 @@ const Home = () => {
             <div className=" flex-col justify-between m-3 space-y-5">
               <h1 className="font-bold text-2xl">3D Room with Game Controls</h1>
               <p className="w-64">Learn how to create a 3D scene in Spline with game interactions like moving, jumping, mouse events, and dark mode state.</p>
-              <img className="h-[15rem]" src="https://uploads.codesandbox.io/uploads/user/007827f0-5496-46fa-9529-5def5fbe281a/sh4C-controls.png"/>
+              <Spline scene="https://prod.spline.design/64vYuxGsTA-XNlX6/scene.splinecode" />
+
             </div>
             <div className="w-5/6">
-              <Spline
-                className="spline rounded-full"
-                scene="https://prod.spline.design/5hftbc9FW0gnuhmx/scene.splinecode"
-              />
+            <Spline scene="https://prod.spline.design/5hftbc9FW0gnuhmx/scene.splinecode" />
             </div>
           </div>
         </div>
