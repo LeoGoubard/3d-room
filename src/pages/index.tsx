@@ -3,7 +3,7 @@ import Spline from '@splinetool/react-spline';
 
 const Home = () => {
   return (
-    <div className="h-full text-[#666666] flex justify-center p-20 text-center flex-col">
+    <div className="h-full text-[#666666] flex justify-center m-20 text-center flex-col">
         <div className=" h-[60vh] m-4">
           <div className="h-auto w-auto flex flex-row justify-center">
             <div className=" flex-col justify-between m-3 w-2/6">
