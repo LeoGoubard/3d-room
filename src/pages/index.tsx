@@ -5,7 +5,7 @@ import Spline from '@splinetool/react-spline';
 const Home = () => {
 
   return (
-    <div className="h-full text-[#666666]">
+    <div className="h-full text-[#666666] flex justify-center flex-col">
         <div className="mt-20 w-1/6 hadow-lg p-2">
           <div className="text-center text-2xl font-extrabold">
             <h1 className="p-3 font-extrabold text-3xl">Spline <span className="">Room</span></h1>
