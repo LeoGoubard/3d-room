@@ -4,7 +4,7 @@ import Spline from '@splinetool/react-spline';
 const Home = () => {
   return (
     <div className="h-screen flex">
-      <div className="m-auto border w-screen h-[70vh] flex flex-row">
+      <div className="m-auto w-screen h-[70vh] flex flex-row">
         <div className=" flex-col justify-between m-3 w-2/6">
           <h1 className="font-extrabold text-3xl">Spline Room</h1>
           <h1 className="font-bold text-2xl">3D Room with Game Controls</h1>
